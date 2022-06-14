@@ -1,0 +1,69 @@
+
+body {
+    width: 200vh;
+    background-color: rgb(90, 90, 90);
+}
+
+h1 {
+  
+    height: 50px;
+    text-align: center;
+}
+form {
+    position: relative;
+    left: 250px;
+    margin: auto;
+    max-width: 300px;
+}
+
+input {
+    width: 600px;
+    height: 25px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+ 
+    padding: 10px;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 300px;
+    gap: 50px;
+    padding: 10px;
+
+}
+
+.grid-container3 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 200px;
+    gap: 50px;
+    padding: 10px;
+
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 5%;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-image: linear-gradient(to right, grey, rgb(175, 0, 0))
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+}
+
+div {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
